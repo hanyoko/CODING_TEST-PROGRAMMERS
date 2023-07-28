@@ -5,6 +5,6 @@ function solution(flo) {
 
 //다른 사람의 풀이
 function solution(flo) {
-  return parseInt(flo);
+    return parseInt(flo);
 }
 
