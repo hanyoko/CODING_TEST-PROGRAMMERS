@@ -12,14 +12,14 @@ function solution(phone_number) {
 //다른 사람의풀이
 function solution(phone_number){
     return phone_number.replace(/\d(?=\d{4})/g, "*");
-  }
+}
 
 //replace에 정규표현식을 사용하는 방법 !
 
 function solution(phone_number){
     var answer = "*".repeat(phone_number.length - 4) + phone_number.slice(-4);
     return answer;
-  }
+}
 
 //휴대폰 번호 길이에서 4f를 뺀 만큼 *을 만들어주고,
 //휴대폰 번호에서 마지막 4자리를 추출하기 위해 slice(-4)를 사용한다.

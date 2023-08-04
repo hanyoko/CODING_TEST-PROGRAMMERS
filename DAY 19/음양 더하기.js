@@ -56,6 +56,8 @@ function solution(absolutes, signs) {
     return answer;
 }
 
+//signs[i] 자체가 true와 false가 나오니 true일 때라는 조건문으로 치환된다 ...
+//삼항연산자를 이용했기에 아닐 때는 false로 적용 ..
 
 //다른 사람의 풀이
 function solution(absolutes, signs) {
