@@ -18,4 +18,4 @@ function solution(m, a) {
     return answer;
 }
 
-//for문을 활용하고 includes가 아니라면 추가하기 !
+//for문과 includes를 활용 
