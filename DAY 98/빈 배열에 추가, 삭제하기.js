@@ -9,7 +9,7 @@ function solution(arr, flag) {
         }
     }
     
-    return X
+    return X;
 }
 
 /*
@@ -38,16 +38,16 @@ function solution(arr, flag) {
     flag.forEach((el, index) => {
         if(el) {
             for(let i = 0; i < arr[index] * 2; i++) {
-               X.push(arr[index])
+               X.push(arr[index]);
             }
         } else if (!el){
             for(let i = 0; i < arr[index]; i++){
-                X.pop()    
+                X.pop();
             }
         }
     })
 
-    return X
+    return X;
 }
 
 /*
